@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./fonts/Merriweather-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa-Light.ttf');
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 250px;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
+
+.Film-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Comfortaa';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Filmimage {
+  width: 300px;
+}
+
+.Image:after {
+  position: absolute;
+  margin-top: 50%;
+  background-image: url("https://umidigital.co.uk/wp-content/uploads/2022/06/bg-wave.svg");
+  z-index: 100;
+
+}
+
+.Block {
+  display: flex;
+}
+
+.Fade {
+  transform: rotateY(180deg);
+  opacity: 0.2;
+  position: relative;
+  z-index: -1;
+  bottom: 270px;
+  left: 270px;
+}
+
+button {
+  font-family: 'Comfortaa';
+  font-size: 16px;
+  font-weight: 700;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
